@@ -1,0 +1,6 @@
+if SHIELD_FAUXLICE
+
+config ZMK_KEYBOARD_NAME
+    default "fAuxlice"
+
+endif
