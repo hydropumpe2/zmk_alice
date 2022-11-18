@@ -17,6 +17,11 @@
 #define FNCTN   4
 #define BOOT    5
 
+&kscan0 {
+    debounce-press-ms = <10>;
+    debounce-release-ms = <10>;
+};
+
 / {
         keymap {
                 compatible = "zmk,keymap";
