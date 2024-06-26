@@ -21,20 +21,20 @@
 
         default_layer {
             bindings = <
-&kp ESC       &kp TAB    &kp CAPSLOCK  &kp LSHFT   &kp LCTRL
-&kp NUMBER_1  &kp Q      &kp A         &none       &kp LALT
-&kp N0        &kp MINUS  &kp EQUAL     &kp DELETE  &kp TAB
-&kp Q         &kp W      &kp F         &kp P       &kp G
-&kp J         &kp L      &kp U         &kp Y       &kp SEMI
-&kp LBKT      &kp RBKT   &kp BSLH      &kp CAPS    &kp A
-&kp R         &kp S      &kp T         &kp D       &kp H
-&kp N         &kp E      &kp I         &kp O       &kp SQT
-&kp GRAVE     &kp ENTER  &kp LSHFT     &none       &kp Z
-&kp X         &kp C      &kp V         &kp B       &kp K
-&kp M         &kp COMMA  &kp DOT       &kp SLASH   &kp RSHFT
-&kp RGUI      &kp LCTRL  &kp LALT      &none       &mo LOWER
-&none         &kp SPACE  &none         &kp BSPC    &none
-&mo RAISE     &none      &kp RALT      &kp RCTRL   &mo FNCTN
+&kp ESC       &kp TAB            &kp CAPSLOCK   &kp LSHFT      &kp LCTRL
+&kp NUMBER_1  &kp Q              &kp A          &none          &kp LALT
+&kp NUMBER_2  &kp W              &kp S          &kp Z          &none
+&kp NUMBER_3  &kp E              &kp D          &kp X          &mo 2
+&kp NUMBER_4  &kp R              &kp F          &kp C          &none
+&kp N5        &kp T              &kp G          &kp V          &kp RIGHT_ALT
+&kp NUMBER_6  &kp Y              &kp H          &kp B          &none
+&kp N7        &kp U              &kp J          &kp N          &kp SPACE
+&kp N8        &kp I              &kp K          &kp M          &none
+&kp N9        &kp O              &kp L          &kp COMMA      &mo 3
+&kp N0        &kp P              &kp SEMICOLON  &kp PERIOD     &none
+&kp MINUS     &kp LEFT_BRACKET   &kp SQT        &kp SLASH      &kp RIGHT_ALT
+&kp EQUAL     &kp RIGHT_BRACKET  &kp BACKSPACE  &kp LSHFT      &kp RCTRL
+&kp DEL       &kp BACKSLASH      &kp ENTER      &kp RIGHT_GUI  &mo FNCTN
             >;
         };
 
