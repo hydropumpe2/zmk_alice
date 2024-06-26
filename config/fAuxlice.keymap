@@ -78,39 +78,39 @@
 
         raise_layer {
             bindings = <
-&none         &none         &none         &none       &none
-&none         &none         &none         &none       &bt BT_SEL 0
-&bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 4  &bt BT_CLR  &none
-&none         &kp UP        &none         &none       &none
-&none         &none         &none         &none       &none
-&none         &none         &out OUT_BLE  &none       &kp LEFT
-&kp DOWN      &kp RIGHT     &kp PG_UP     &none       &none
-&none         &none         &none         &none       &none
-&bt BT_SEL 3  &out OUT_TOG  &none         &none       &kp HOME
-&none         &kp END       &kp PG_DN     &none       &none
-&none         &none         &none         &none       &none
-&out OUT_USB  &none         &none         &none       &tog BOOT
-&none         &none         &none         &none       &none
-&mo RAISE     &none         &none         &none       &none
+&none         &none         &none           &none  &none
+&bt BT_SEL 0  &none         &none           &none  &none
+&bt BT_SEL 1  &none         &none           &none  &none
+&bt BT_SEL 2  &kp UP        &none           &none  &none
+&none         &none         &none           &none  &none
+&none         &none         &out OUT_BLE    &none  &kp LEFT
+&kp DOWN      &kp RIGHT     &kp PG_UP       &none  &none
+&none         &none         &none           &none  &none
+&bt BT_SEL 3  &out OUT_TOG  &none           &none  &kp HOME
+&none         &kp END       &kp PG_DN       &none  &none
+&none         &none         &none           &none  &none
+&out OUT_USB  &none         &none           &none  &tog BOOT
+&none         &none         &bt BT_CLR_ALL  &none  &none
+&mo RAISE     &none         &none           &none  &none
             >;
         };
 
         function_layer {
             bindings = <
-&tog QWERTY  &kp F1   &kp F2   &kp F3  &kp F4
-&kp F5       &kp F6   &kp F7   &kp F8  &kp F9
-&kp F10      &kp F11  &kp F12  &none   &none
-&none        &none    &none    &none   &none
-&none        &none    &none    &none   &none
-&none        &none    &none    &none   &none
-&none        &none    &none    &none   &none
-&none        &none    &none    &none   &none
-&none        &none    &none    &none   &none
-&none        &none    &none    &none   &none
-&none        &none    &none    &none   &none
-&none        &none    &none    &none   &none
-&none        &none    &none    &none   &none
-&none        &none    &none    &none   &mo FNCTN
+&tog 0   &kp F1   &kp F2   &kp F3  &kp F4
+&kp F1   &kp F6   &kp F7   &kp F8  &kp F9
+&kp F2   &kp F11  &kp F12  &none   &none
+&kp F3   &none    &none    &none   &none
+&kp F4   &none    &none    &none   &none
+&kp F5   &none    &none    &none   &none
+&kp F6   &none    &none    &none   &none
+&kp F7   &none    &none    &none   &none
+&kp F8   &none    &none    &none   &none
+&kp F9   &none    &none    &none   &none
+&kp F10  &none    &none    &none   &none
+&kp F11  &none    &none    &none   &none
+&kp F12  &none    &none    &none   &none
+&none    &none    &none    &none   &mo FNCTN
             >;
         };
 
